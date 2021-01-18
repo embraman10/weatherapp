@@ -4,8 +4,8 @@ import DayCards from './DayCards';
 
 class WeekContainer extends React.Component {
     state = {
-      fullData: [],
-      dailyData: []
+      fullData: [ ],
+      dailyData: [ ]
     }
   
     componentDidMount = () => {
